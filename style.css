@@ -119,8 +119,33 @@ body{
 
 }
  /* footer ended */
+ 
+ /* Media queries mobile  */
 
-   
+ @media screen and (max-width:688px) {
+   .total{
+     grid-template-columns: repeat(1,1fr);
+   }
+   .influ{
+     width: 50%;
+   }
+   .link-button{
+     display: none;
+   }
+ }
+ @media only screen and (min-width:688px) and (max-width:992px){
+  .total{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .influ{
+    width: 50%;
+  }
+  .link-button{
+    display: none;
+  }
+}
+
+ }
     
 
 
