@@ -2,13 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-
-.forheader{
-    width: 50%;
-    padding-left: 5%;
-    padding-top: 5%;
-
-}
+ /* common parts */
 body{
     font-family: 'Ubuntu', sans-serif;
+}
+.fortitle{
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+
+}
+.influ{
+  width: 50%;
+  padding-left: 5%;
+}
+.influ img{
+  width: 80%;
 }
