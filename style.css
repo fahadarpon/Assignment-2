@@ -26,7 +26,7 @@ body{
 
 .influ img:hover{
   color: black ;
-  background-color:aquamarine ;
+  background-color:lightgray  ;
   transform: scale(1.5);
   transition: transform 2s ease-in-out
 }
@@ -42,27 +42,62 @@ body{
 .fa-arrow-right{
   padding-left: 20px;
 }
-.footer{
-  background-color: gray;
-  color: whitesmoke;
-  padding: 10px;
-  text-align: center;
 
+
+.collection{
+  text-align: center;
+}
+.total{
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
-.footer_icon{
-    
+
+.product-total{
+  padding: 20px 25px;
+  border-radius: 2%;
+  box-shadow: 5px 5px 18px 1px #888888;
+}
+.ratings{
   display: flex;
-  color: white;
-  text-align: center;
   align-items: center;
-  justify-content: center;
-  
+}
+.fa-star{
+  font-size: 12px;
+}
+.fa-star.filled{
+  color: #FFC014
+}
+.fa-star.empty{
+  color: #AEAEAE;
+}
+.rate{
+  padding-left: 10px;
+}
+.forseemore{
+    width: 50%;
+   padding-left: 85%;
+   padding-top: 2%;
 }
 
-.fab{
-
-  margin: 5px;
-
+.division4{
+  display: flex;
 }
- /* footer ended */
+.influ2 img{
+  width: 80%;
+}
+.influ2{
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+   
+    
+
+
+
+
+
