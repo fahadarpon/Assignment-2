@@ -94,6 +94,32 @@ body{
   padding-top: 5%;
 }
 
+.footer{
+  background-color: gray;
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  margin-top: 5%;
+
+}
+
+.footer_icon{
+    
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.fab{
+
+  margin: 5px;
+
+}
+ /* footer ended */
+
    
     
 
