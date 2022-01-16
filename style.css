@@ -35,3 +35,27 @@ body{
 .fa-arrow-right{
   padding-left: 20px;
 }
+.footer{
+  background-color: gray;
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.footer_icon{
+    
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.fab{
+
+  margin: 5px;
+
+}
+ /* footer ended */
