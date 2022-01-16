@@ -12,6 +12,7 @@ body{
   padding-top: 5%;
 
 }
+
 .division1{
   display: flex;
 }
@@ -31,6 +32,6 @@ body{
   font-weight: 700;
   border-radius: 5px;
 }
-.fas fa-arrow-right{
-  padding-left: 10px;
+.fa-arrow-right{
+  padding-left: 20px;
 }
